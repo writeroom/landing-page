@@ -8,4 +8,43 @@ h1,h2,h3,h4,h5,h6
   text-transform: uppercase
 
 h2
-  font-size: 3em 
+  font-size: 3em
+
+.wrapper
+  +clearfix
+  max-width: 1200px
+  margin: 0 auto
+
+header
+  +clearfix
+  padding: 40px 40px 0
+
+  .brand
+    +hide-text
+    background: center no-repeat
+    height: 125px
+    width: 125px
+    margin: 15px 0
+    float: left
+
+    +retina
+      background-image: url("../img/brightside-studios-logo_2x.png")
+      background-size: 125px 125px
+
+a
+  color: $brand-dark
+  border-bottom: solid 1px $brand-dark
+  text-decoration: none
+  &:hover
+    color: $brand-primary
+
+section, aside, article
+  margin-top: 40px
+  margin-bottom: 40px
+  +clearfix
+
+#{$all-buttons}
+  font-family: $sans-serif
+  background: $brand-primary
+  &:hover
+    background: shade($brand-primary, 10%)

@@ -6650,6 +6650,45 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/1-base\/_footer.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/1-base\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/1-base\/_nav.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/1-base\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/2-layouts\/_home.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/2-layouts\/_home.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/2-layouts\/_layouts-dir.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -6663,6 +6702,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/3-modules\/_cta.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/3-modules\/_cta.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/3-modules\/_modules-dir.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -6672,6 +6724,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/3-modules\/_modules-dir.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/3-modules\/_widget.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/3-modules\/_widget.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
