@@ -41,3 +41,10 @@ a
 section, aside, article
   margin-top: 40px
   margin-bottom: 40px
+  +clearfix
+
+#{$all-buttons}
+  font-family: $sans-serif
+  background: $brand-primary
+  &:hover
+    background: shade($brand-primary, 10%)

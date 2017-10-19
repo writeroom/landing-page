@@ -256,10 +256,79 @@ a {
 section, aside, article {
   margin-top: 40px;
   margin-bottom: 40px; }
+  section::after, aside::after, article::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+button, [type='button'], [type='reset'], [type='submit'] {
+  font-family: "PT Sans", sans-serif;
+  background: #f26722; }
+  button:hover, [type='button']:hover, [type='reset']:hover, [type='submit']:hover {
+    background: #da5d1f; }
+
+/* NAV.SASS */
+nav {
+  float: right;
+  margin-top: 60px;
+  font-weight: bold; }
+  nav li {
+    display: inline-block;
+    padding: 0 20px; }
+
+/* FOOTER.SASS */
+footer {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  text-align: center;
+  padding: 40px 0; }
 
 /* ==============================
    LAYOUT STYLES
    @mixin ============================= */
+/* HOME.SASS */
+.basic-info::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.about {
+  width: calc(50% - 30px);
+  float: left;
+  margin-left: 20px;
+  left: calc(8.3333333333% - 21.6666666667px + 20px);
+  position: relative; }
+
+.widgets {
+  background: #f4f6ef;
+  padding: 40px; }
+  .widgets h3 {
+    font-size: 2em;
+    border-bottom: solid 1px #373737; }
+
 /* ==============================
    MODULE STYLES
    @mixin ============================= */
+/* CTA */
+.call-to-action {
+  width: calc(33.3333333333% - 26.6666666667px);
+  float: left;
+  margin-left: 20px;
+  left: calc(8.3333333333% - 21.6666666667px + 20px);
+  position: relative;
+  border: solid 1px #1e1d1d;
+  padding: 40px;
+  background: #373737;
+  color: #f4f6ef; }
+
+/* WIDGET.SASS */
+.widget {
+  width: calc(33.3333333333% - 26.6666666667px);
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px; }
+  .widget:first-of-type {
+    margin-left: 0; }
+  .widget:last-of-type {
+    margin-right: 0; }
