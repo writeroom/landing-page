@@ -209,8 +209,10 @@ hr {
    @mixin ============================= */
 /* COMMON.SASS */
 body {
-  font-family: "Consolas", "monaco", monospace;
-  margin-left: 0; }
+  font-family: "Consolas", "monaco", monospace; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Titillium Web", sans-serif; }
 
 /* ==============================
    LAYOUT STYLES
