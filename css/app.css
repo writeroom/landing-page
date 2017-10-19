@@ -218,6 +218,34 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   font-size: 3em; }
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto; }
+  .wrapper::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+header {
+  padding: 40px 40px 0; }
+  header::after {
+    clear: both;
+    content: "";
+    display: block; }
+  header .brand {
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+    background: center no-repeat;
+    height: 125px;
+    width: 125px;
+    margin: 15px 0;
+    float: left; }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      header .brand {
+        background-image: url("../img/brightside-studios-logo_2x.png");
+        background-size: 125px 125px; } }
+
 /* ==============================
    LAYOUT STYLES
    @mixin ============================= */
