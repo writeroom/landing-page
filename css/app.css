@@ -210,7 +210,7 @@ hr {
 /* COMMON.SASS */
 body {
   font-family: "Consolas", "monaco", monospace;
-  margin: auto; }
+  margin: auto 0; }
 
 /* ==============================
    LAYOUT STYLES
