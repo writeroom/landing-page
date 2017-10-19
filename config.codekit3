@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/.sass-cache\/04031a6ab15320f6fff4fc4605644d34d642f3a1\/_settings.scssc": {
 		"ft": 8192,
 		"oA": 1,
