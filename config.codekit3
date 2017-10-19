@@ -5145,16 +5145,6 @@
 		"oAP": "\/.sass-cache\/fbbfa1b90db02f341d2bf85942cd8e0c7a43ed85\/_plugins-dir.sassc",
 		"oF": 0
 		},
-	"\/css\/app.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/app-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/img\/brightside-studios-logo.png": {
 		"ft": 32768,
 		"iS": 23309,
@@ -6627,19 +6617,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/1-base\/_base-dir.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/1-base\/_common.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/1-base\/_common.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
