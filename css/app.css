@@ -212,7 +212,11 @@ body {
   font-family: "Consolas", "monaco", monospace; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Titillium Web", sans-serif; }
+  font-family: "Titillium Web", sans-serif;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 3em; }
 
 /* ==============================
    LAYOUT STYLES
